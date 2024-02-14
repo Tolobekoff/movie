@@ -1,0 +1,45 @@
+#movie {
+    margin: 40px 0;
+}
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+.movie-card{
+    padding: 10px 0;
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: aqua;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.movie-card img{
+    width: 180px;
+    border-radius: 10px;
+}
+.next-back{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+
+}
+.next-back button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 0 20px;
+
+}
+.next-back button:hover{
+    background: red;
+    border: 1.1px solid black;
+    color: aliceblue;
+}
